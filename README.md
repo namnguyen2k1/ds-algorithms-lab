@@ -1,10 +1,43 @@
-# DSA
+### DS Algorithms
 
-A personal **Js programming lab** to explore and consolidate knowledge in:
+A repository containing classic **data structures, graph algorithms, sorting algorithms, and practice problems**. This repo is designed for learning, practicing, and experimenting with algorithms.
 
-- **Data Structures & Algorithms** (DSA)
-- **Graph Theory**
-- **Algorithm Design & Analysis**
-- **Mini Projects**: games,...
+---
 
-This repository serves as a **learning playground** and long-term reference for all things Js.
+### Project Structure
+
+```
+.
+├── data-structures
+├── graph-theory
+├── sort-algorithms
+├── practices
+├── utils
+└── main.ts
+```
+
+---
+
+### Folder Overview
+
+- **`data-structures/`** — Implementations of core data structures.
+
+- **`graph-theory/`** — Graph representations, traversal algorithms.
+
+- **`sort-algorithms/`** — Classic and advanced sorting algorithm implementations, plus a playground to test them.
+
+- **`practices/`** — Small algorithmic exercises and problem-solving examples.
+
+- **`utils/`** — Utility functions used across the repository.
+
+---
+
+### Features
+
+- Core `data structures` and their TypeScript implementations.
+- Graph algorithms including `BFS`, `DFS`, `Dijkstra`, and `Bellman-Ford`.
+- Classic and advanced `sorting algorithms`.
+- Algorithmic practice problems for learning and exercises.
+- `Modular` and TypeScript-friendly code structure.
+
+---
