@@ -2,82 +2,80 @@
 
 ```bash
 Test case length: 5
-{ name: 'selection sort', correct: true, time: '0.067 ms' }
-{ name: 'insertion sort', correct: true, time: '0.053 ms' }
-{ name: 'bubble sort', correct: true, time: '0.029 ms' }
-{ name: 'quick sort classic', correct: true, time: '0.103 ms' }
-{ name: 'quick sort pivot detection', correct: true, time: '0.075 ms' }
-{ name: 'heap sort', correct: true, time: '0.057 ms' }
-{ name: 'heap sort 2', correct: true, time: '0.105 ms' }
-{ name: 'merge sort', correct: true, time: '0.081 ms' }
-{ name: 'tim sort', correct: true, time: '0.065 ms' }
-{ name: 'native sort', correct: true, time: '0.048 ms' }
+{ name: 'selection sort', correct: true, time: '0.052 ms' }
+{ name: 'insertion sort', correct: true, time: '0.083 ms' }
+{ name: 'bubble sort', correct: true, time: '0.041 ms' }
+{ name: 'shaker sort', correct: true, time: '0.043 ms' }
+{ name: 'counting sort', correct: true, time: '0.068 ms' }
+{ name: 'brick sort', correct: true, time: '0.042 ms' }
+{ name: 'quick sort', correct: true, time: '0.054 ms' }
+{ name: 'heap sort 2', correct: true, time: '0.088 ms' }
+{ name: 'merge sort', correct: true, time: '0.075 ms' }
+{ name: 'tim sort', correct: true, time: '0.084 ms' }
+{ name: 'native sort', correct: true, time: '0.029 ms' }
 
 Test case length: 1000
-{ name: 'selection sort', correct: true, time: '2.650 ms' }
-{ name: 'insertion sort', correct: true, time: '2.586 ms' }
-{ name: 'bubble sort', correct: true, time: '3.985 ms' }
-{ name: 'quick sort classic', correct: true, time: '0.478 ms' }
-{ name: 'quick sort pivot detection', correct: true, time: '0.604 ms' }
-{ name: 'heap sort', correct: true, time: '0.823 ms' }
-{ name: 'heap sort 2', correct: true, time: '0.892 ms' }
-{ name: 'merge sort', correct: true, time: '0.804 ms' }
-{ name: 'tim sort', correct: true, time: '0.915 ms' }
-{ name: 'native sort', correct: true, time: '0.258 ms' }
+{ name: 'selection sort', correct: true, time: '3.678 ms' }
+{ name: 'insertion sort', correct: true, time: '4.038 ms' }
+{ name: 'bubble sort', correct: true, time: '5.184 ms' }
+{ name: 'shaker sort', correct: true, time: '7.646 ms' }
+{ name: 'counting sort', correct: true, time: '2.856 ms' }
+{ name: 'brick sort', correct: true, time: '5.438 ms' }
+{ name: 'quick sort', correct: true, time: '0.531 ms' }
+{ name: 'heap sort 2', correct: true, time: '0.842 ms' }
+{ name: 'merge sort', correct: true, time: '0.801 ms' }
+{ name: 'tim sort', correct: true, time: '0.922 ms' }
+{ name: 'native sort', correct: true, time: '0.265 ms' }
 
 Test case length: 10000
-{ name: 'selection sort', correct: true, time: '109.085 ms' }
-{ name: 'insertion sort', correct: true, time: '79.623 ms' }
-{ name: 'bubble sort', correct: true, time: '197.962 ms' }
-{ name: 'quick sort classic', correct: true, time: '1.099 ms' }
-{ name: 'quick sort pivot detection', correct: true, time: '1.758 ms' }
-{ name: 'heap sort', correct: true, time: '2.242 ms' }
-{ name: 'heap sort 2', correct: true, time: '2.277 ms' }
-{ name: 'merge sort', correct: true, time: '2.608 ms' }
-{ name: 'tim sort', correct: true, time: '2.645 ms' }
-{ name: 'native sort', correct: true, time: '2.310 ms' }
+{ name: 'selection sort', correct: true, time: '110.166 ms' }
+{ name: 'insertion sort', correct: true, time: '85.771 ms' }
+{ name: 'bubble sort', correct: true, time: '184.986 ms' }
+{ name: 'shaker sort', correct: true, time: '169.455 ms' }
+{ name: 'counting sort', correct: true, time: '1.740 ms' }
+{ name: 'brick sort', correct: true, time: '176.251 ms' }
+{ name: 'quick sort', correct: true, time: '0.979 ms' }
+{ name: 'heap sort 2', correct: true, time: '2.224 ms' }
+{ name: 'merge sort', correct: true, time: '4.355 ms' }
+{ name: 'tim sort', correct: true, time: '2.846 ms' }
+{ name: 'native sort', correct: true, time: '2.603 ms' }
 
 Test case length: 30000
-{ name: 'selection sort', correct: true, time: '801.809 ms' }
-{ name: 'insertion sort', correct: true, time: '535.404 ms' }
-{ name: 'bubble sort', correct: true, time: '2262.387 ms' }
-{ name: 'quick sort classic', correct: true, time: '3.962 ms' }
-{ name: 'quick sort pivot detection', correct: true, time: '4.976 ms' }
-{ name: 'heap sort', correct: true, time: '7.812 ms' }
-{ name: 'heap sort 2', correct: true, time: '7.829 ms' }
-{ name: 'merge sort', correct: true, time: '8.687 ms' }
-{ name: 'tim sort', correct: true, time: '4.514 ms' }
-{ name: 'native sort', correct: true, time: '9.742 ms' }
+{ name: 'selection sort', correct: true, time: '846.523 ms' }
+{ name: 'insertion sort', correct: true, time: '610.170 ms' }
+{ name: 'bubble sort', correct: true, time: '1893.494 ms' }
+{ name: 'shaker sort', correct: true, time: '1581.501 ms' }
+{ name: 'counting sort', correct: true, time: '1.337 ms' }
+{ name: 'brick sort', correct: true, time: '1729.424 ms' }
+{ name: 'quick sort', correct: true, time: '4.270 ms' }
+{ name: 'heap sort 2', correct: true, time: '12.527 ms' }
+{ name: 'merge sort', correct: true, time: '9.584 ms' }
+{ name: 'tim sort', correct: true, time: '4.663 ms' }
+{ name: 'native sort', correct: true, time: '9.753 ms' }
 
 Test case length: 70000
-{ name: 'selection sort', correct: true, time: '5607.263 ms' }
-{ name: 'insertion sort', correct: true, time: '3528.553 ms' }
-{ name: 'bubble sort', correct: true, time: '12702.314 ms' }
-{ name: 'quick sort classic', correct: true, time: '10.014 ms' }
-{
-  name: 'quick sort pivot detection',
-  correct: true,
-  time: '11.920 ms'
-}
-{ name: 'heap sort', correct: true, time: '19.665 ms' }
-{ name: 'heap sort 2', correct: true, time: '20.194 ms' }
-{ name: 'merge sort', correct: true, time: '24.346 ms' }
-{ name: 'tim sort', correct: true, time: '15.443 ms' }
-{ name: 'native sort', correct: true, time: '24.822 ms' }
+{ name: 'selection sort', correct: true, time: '5615.833 ms' }
+{ name: 'insertion sort', correct: true, time: '4166.778 ms' }
+{ name: 'bubble sort', correct: true, time: '13830.250 ms' }
+{ name: 'shaker sort', correct: true, time: '9170.985 ms' }
+{ name: 'counting sort', correct: true, time: '8.904 ms' }
+{ name: 'brick sort', correct: true, time: '9562.418 ms' }
+{ name: 'quick sort', correct: true, time: '10.579 ms' }
+{ name: 'heap sort 2', correct: true, time: '20.156 ms' }
+{ name: 'merge sort', correct: true, time: '28.726 ms' }
+{ name: 'tim sort', correct: true, time: '17.177 ms' }
+{ name: 'native sort', correct: true, time: '25.515 ms' }
 
 Test case length: 100000
-{ name: 'selection sort', correct: true, time: '11062.274 ms' }
-{ name: 'insertion sort', correct: true, time: '7572.161 ms' }
-{ name: 'bubble sort', correct: true, time: '27963.140 ms' }
-{ name: 'quick sort classic', correct: true, time: '15.788 ms' }
-{
-  name: 'quick sort pivot detection',
-  correct: true,
-  time: '18.160 ms'
-}
-{ name: 'heap sort', correct: true, time: '30.622 ms' }
-{ name: 'heap sort 2', correct: true, time: '31.352 ms' }
-{ name: 'merge sort', correct: true, time: '36.182 ms' }
-{ name: 'tim sort', correct: true, time: '20.772 ms' }
-{ name: 'native sort', correct: true, time: '41.263 ms' }
+{ name: 'selection sort', correct: true, time: '11839.611 ms' }
+{ name: 'insertion sort', correct: true, time: '8857.352 ms' }
+{ name: 'bubble sort', correct: true, time: '27834.373 ms' }
+{ name: 'shaker sort', correct: true, time: '18763.063 ms' }
+{ name: 'counting sort', correct: true, time: '5.321 ms' }
+{ name: 'brick sort', correct: true, time: '21395.611 ms' }
+{ name: 'quick sort', correct: true, time: '15.394 ms' }
+{ name: 'heap sort 2', correct: true, time: '30.125 ms' }
+{ name: 'merge sort', correct: true, time: '36.833 ms' }
+{ name: 'tim sort', correct: true, time: '20.808 ms' }
+{ name: 'native sort', correct: true, time: '39.215 ms' }
 ```

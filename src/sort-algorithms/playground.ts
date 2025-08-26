@@ -1,14 +1,17 @@
 import { clone } from '../utils/clone';
 import { randomArr } from '../utils/random-arr';
+import { brickSort } from './brick-sort';
 import { bubbleSort } from './bubble-sort';
+import { countingSort } from './counting-sort';
 import { heapSort } from './heap-sort';
 import { insertionSort } from './insertion-sort';
 import { mergeSort } from './merge-sort';
 import { quickSort } from './quick-sort';
 import { selectionSort } from './selection-sort';
+import { shakerSort } from './shaker-sort';
 import { timSort } from './tim-sort';
 
-export function sortAlgorithmPlayground() {
+export function runSortAlgorithmPlayground() {
   const isSorted = (arr: number[]): boolean => {
     for (let i = 1; i < arr.length; i++) {
       if (arr[i - 1] > arr[i]) return false;
@@ -37,6 +40,9 @@ export function sortAlgorithmPlayground() {
     { name: 'selection sort', fn: selectionSort },
     { name: 'insertion sort', fn: insertionSort },
     { name: 'bubble sort', fn: bubbleSort },
+    { name: 'shaker sort', fn: shakerSort },
+    { name: 'counting sort', fn: countingSort },
+    { name: 'brick sort', fn: brickSort },
     { name: 'quick sort', fn: arr => quickSort(arr, 0, arr.length - 1) },
     { name: 'heap sort 2', fn: heapSort },
     { name: 'merge sort', fn: arr => mergeSort(arr, 0, arr.length - 1) },
@@ -52,7 +58,7 @@ export function sortAlgorithmPlayground() {
       console.log({
         name: algo.name,
         correct: isSorted(result.output),
-        output: result.output,
+        // output: result.output,
         time: result.time.toFixed(3) + ' ms'
       });
     }
