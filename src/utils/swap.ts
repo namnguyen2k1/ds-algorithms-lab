@@ -14,3 +14,7 @@ export function swapNumbers(arr: number[], i: number, j: number) {
   arr[j] = arr[i] ^ arr[j];
   arr[i] = arr[i] ^ arr[j];
 }
+
+export function swapNumbers2(arr: number[], i: number, j: number) {
+  arr[i] = arr[i] + arr[j] - (arr[j] = arr[i]);
+}
