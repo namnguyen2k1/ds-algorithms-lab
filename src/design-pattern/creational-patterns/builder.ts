@@ -75,7 +75,7 @@ class OrderBuilder {
   }
 }
 
-function orderBuilderPlayground() {
+function builderPlayground() {
   const order = new OrderBuilder()
     .addProduct(new Product('Laptop', 1500))
     .addProduct(new Product('Mouse', 50))
