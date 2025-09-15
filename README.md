@@ -1,6 +1,6 @@
 ### DS Algorithms
 
-A repository containing classic **data structures, graph algorithms, sorting algorithms, and practice problems**. This repo is designed for learning, practicing, and experimenting with algorithms.
+A repository containing classic **data structures, design pattern, graph algorithms, sorting algorithms, and practice problems**. This repo is designed for learning, practicing, and experimenting with algorithms.
 
 ---
 
@@ -9,6 +9,7 @@ A repository containing classic **data structures, graph algorithms, sorting alg
 ```
 .
 ├── data-structures
+|── design-pattern
 ├── graph-theory
 ├── sort-algorithms
 ├── practices
@@ -21,6 +22,8 @@ A repository containing classic **data structures, graph algorithms, sorting alg
 ### Folder Overview
 
 - **`data-structures/`** — Implementations of core data structures.
+
+- **`design-pattern/`** — Creational, Structural, Behavioral patterns.
 
 - **`graph-theory/`** — Graph representations, traversal algorithms.
 
@@ -35,6 +38,7 @@ A repository containing classic **data structures, graph algorithms, sorting alg
 ### Features
 
 - Core `data structures` and their TypeScript implementations.
+- Some common design patterns.
 - Graph algorithms including `BFS`, `DFS`, `Dijkstra`, and `Bellman-Ford`.
 - Classic and advanced `sorting algorithms`.
 - Algorithmic practice problems for learning and exercises.

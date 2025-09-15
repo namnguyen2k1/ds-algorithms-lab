@@ -71,7 +71,6 @@ export function runBFSPlayground() {
       [28, 29],
       [29, 30],
 
-      // Thêm 11 cạnh tăng độ liên kết
       [1, 10],
       [5, 15],
       [10, 20],

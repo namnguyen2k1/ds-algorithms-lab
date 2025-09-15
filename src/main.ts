@@ -31,3 +31,30 @@
 // runDFSPlayground();
 // runDijkstraPlayground();
 // runBellmanFordPlayground();
+
+/**
+ * Design Pattern
+ */
+// singletonPlayground();
+// simpleFactoryPlayground();
+// factoryMethodPlayground();
+// abstractFactoryPlayground();
+// builderPlayground();
+// prototypePlayground();
+
+// adapterPlayground();
+// bridgePlayground();
+// compositePlayground();
+// facadePlayground();
+// flyWeightPlayground();
+// proxyPlayground();
+
+// chainOfResponsibilityPlayground();
+// commandPlayground();
+// iteratorPlayground();
+// mediatorPlayground();
+// mementoPlayground();
+// observerPlayground();
+// statePlayground();
+// strategyPlayground();
+// templateMethodPlayground();
