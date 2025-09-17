@@ -58,3 +58,6 @@
 // statePlayground();
 // strategyPlayground();
 // templateMethodPlayground();
+
+// polymorphismPlayground();
+// functionalProgrammingPlayground();
